@@ -42,60 +42,8 @@ public final class App {
     // Logica de Negocio
     public final void launchApp() {
 
-        System.out.println("ELECCIÓN DE DELEGADO/A");
-        System.out.println("======================");
-
-        Properties m = UtilesApp.importarPropiedades("app.properties");
-
-        String n = m.getProperty("candidatos");
-
-        String[] z = n.split(",");
-
-        // String[] h = {"Gumersinda Peláez Patata","Perfecto Redondo Cuadrado","Risotto Nientro Nisalgo"};
-        //String[] n = {m};
-        int[] e = {7, 2, 4};
-
-        int a = 0;
-        int o = 2;
-
-        double a2 = (a * 100) / 5;
-        double o2 = (o * 100) / 5;
-
-        for (int i = 0; i < z.length; i++) {
-            String string = z[i];
-
-            System.out.println("[" + (i + 1) + "] " + string + "- 0" + i + " Votos/s -");
-
-        }
-/*
-        for (int j = 0; j < e.length; j++) {
-            int k = e[j];
-
-        }
-*/
-        System.out.println("---");
-        System.out.printf("[B] Votos en BLANCO  -%d Votos/s - %.2f%% %n", a, a2);
-        System.out.printf("[N] Votos NULOS      -%d Votos/s - %.2f%%%n", o, o2);
-        System.out.println("---");
-        // System.out.println("[i] %s - %d Voto/s - %d %% %n");
-
-        int j = (int) UtilesCaracter.ññNumero(e);
-        System.out.println("---");
-        System.out.printf("Votos EMITIDOS       -%d%n", j);
-        System.out.println("---");
-        System.out.println("Nuevo VOTO (S: SALIR) ............:");
-        System.out.println("---");
-
-        System.out.println("----------------------------------------------------------------------");
-
-        System.out.println("RESULTADO DE LA ELECCIÓN");
-        System.out.println("========================");
-
-        //System.out.println("[i] %s - %d Voto/s - %d %% %n");
-        int v = (int) UtilesCaracter.NumeroMayor(e);
-        System.out.printf(" %d Voto/s %n", v);
-
-        System.out.println("");
-
+        
+        System.out.println("aa");
+        
     }
 }
