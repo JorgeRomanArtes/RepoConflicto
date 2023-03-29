@@ -18,9 +18,6 @@ package org.japo.java.app;
 import java.util.Locale;
 import java.util.Properties;
 import java.util.Scanner;
-import org.japo.java.libraries.UtilesApp;
-import org.japo.java.libraries.UtilesCaracter;
-import org.japo.java.libraries.UtilesConfig;
 
 /**
  *
@@ -43,7 +40,7 @@ public final class App {
     public final void launchApp() {
 
         
-        System.out.println("aa");
+        System.out.println("aabb");
         
     }
 }
